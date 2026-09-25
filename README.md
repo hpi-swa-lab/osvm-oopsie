@@ -160,3 +160,7 @@ This will give you an interactive visualization of the first 10,000 objects in t
 
 ![Result](./screenshots/objectMemoryVisualization.png)
 
+## Citing
+
+> Christoph Thiede, Marius Dörbandt, Eliot Miranda, Marcel Taeumel, and Robert Hirschfeld. 2026. Proxies All the Way Down: Bootstrapping a Userland Speculative Optimizer for the OpenSmalltalk VM. In *Proceedings of the 2026 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! ’26)*, October 4–9, 2026, Oakland, CA, USA. ACM, New York, NY, USA, 16 pages. [To appear.](https://doi.org/10.1145/3840586.3843214)
+
