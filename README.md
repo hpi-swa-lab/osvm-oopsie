@@ -8,6 +8,11 @@ This project was initially developed in the context of a Master's Project @ [hpi
 
 ## Installation
 
+> [!NOTE]
+> As of beginning of October, 2026, upstreaming of this project into VMMaker has started. The core of Oopsie has already been merged into <https://source.squeak.org/VMMaker/> (see the Oopsie package); see also [`VMMaker.oscog-ct.3795`](https://source.squeak.org/VMMaker/VMMaker.oscog-ct.3795.diff), which merges required extension methods to VMMaker. To run Scorch via Oopsie, loading (parts of) this repository is currently still required (in particular, extension methods to `CoInterpreter` and `CogVMSimulator`). To date, also other contributions of this repository such as `InstructionPrinterWithSendAndBranchData`, the assembler browser, and other features described in `OopsieProxy class>>#todoMoveUpstream` have not yet been merged upstream. Please be patient with us (but feel free to contact us if something has a priority for you or is not working) 🙏
+> 
+> We are planning to remove all upstreamed contents from this repository, but for archival purposes, they will be preserved in the [`v0.1`](https://github.com/hpi-swa-lab/osvm-oopsie/releases/tag/v0.1) tag, which can be loaded into the latest VMMaker image at the time of that tag's release.
+
 1. Clone the OSVM repo and follow the instructions in their readme to build a VMMaker image and a spurreader image
 2. Install dependencies:
    - https://github.com/LinqLover/SimulationStudio (required)
